@@ -27,6 +27,8 @@ Automated Test Implementation:
 
 ## Run Locally
 
+** Every time you execute the script, remember to update the email at line 68 of the kinetik.py file **
+
 Clone the project
 
 ```bash
@@ -57,6 +59,8 @@ Install dependencies
 ```bash
   pip install -r requirements.txt
 ```
+
+** wait, remember to update the email at line 68 of the kinetik.py file**
 
 Run the python script
 ```bash

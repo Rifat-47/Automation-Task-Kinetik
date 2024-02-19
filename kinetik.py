@@ -1,3 +1,4 @@
+""" Every time you execute the script, remember to update the email at line 68 of the kinetik.py file """
 # importing necessary modules
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -64,6 +65,7 @@ name_input.send_keys('rifat1')
 time.sleep(1)
 
 email_input = driver.find_element(by='xpath', value="(//input[@data-qa='signup-email'])[1]")
+# Every time you execute the script, remember to update the email below
 email_input.send_keys('rifat7@yopmail.com')
 time.sleep(1)
 
