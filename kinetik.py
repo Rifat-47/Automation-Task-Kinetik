@@ -66,7 +66,7 @@ time.sleep(1)
 
 email_input = driver.find_element(by='xpath', value="(//input[@data-qa='signup-email'])[1]")
 # Every time you execute the script, remember to update the email below
-email_input.send_keys('rifat7@yopmail.com')
+email_input.send_keys('rifat10@yopmail.com')
 time.sleep(1)
 
 signup_button = driver.find_element(by='xpath', value="(//button[normalize-space()='Signup'])[1]")
