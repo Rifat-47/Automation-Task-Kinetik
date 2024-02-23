@@ -31,7 +31,7 @@ men_tshirt = driver.find_element(by='xpath', value="(//a[contains(text(),'Add to
 actions = ActionChains(driver)
 
 actions.move_to_element(men_tshirt).perform()
-time.sleep(1)
+time.sleep(2)
 men_tshirt_modal = driver.find_element(by='xpath', value="//div[3]//div[1]//div[1]//div[2]//div[1]//a[1]")
 men_tshirt_modal.click()
 time.sleep(2)
@@ -66,7 +66,7 @@ time.sleep(1)
 
 email_input = driver.find_element(by='xpath', value="(//input[@data-qa='signup-email'])[1]")
 # Every time you execute the script, remember to update the email below
-email_input.send_keys('rifat10@yopmail.com')
+email_input.send_keys('rifat11@yopmail.com')
 time.sleep(1)
 
 signup_button = driver.find_element(by='xpath', value="(//button[normalize-space()='Signup'])[1]")
